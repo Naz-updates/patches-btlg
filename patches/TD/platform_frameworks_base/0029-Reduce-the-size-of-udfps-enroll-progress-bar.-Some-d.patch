@@ -22,7 +22,7 @@ index 597e88093de8..c3430211747f 100644
 +        70
      </integer>
  
-     <!-- The time (in ms) needed to trigger the lock icon view's long-press affordance -->
+     <!-- package name of a built-in camera app to use to restrict implicit intent resolution
 -- 
-2.25.1
+2.38.1
 
