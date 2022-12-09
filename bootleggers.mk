@@ -1,6 +1,6 @@
 $(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
 $(call inherit-product, vendor/bootleggers/config/BoardConfigSoong.mk)
-$(call inherit-product, vendor/bootleggers/config/BoardConfigbBootleggers.mk)
+$(call inherit-product, vendor/bootleggers/config/BoardConfigBootleggers.mk)
 $(call inherit-product, device/bootleggers/sepolicy/common/sepolicy.mk)
 -include vendor/bootleggers/build/core/config.mk
 
@@ -11,3 +11,5 @@ TARGET_USES_PREBUILT_VENDOR_SEPOLICY := true
 TARGET_HAS_FUSEBLK_SEPOLICY_ON_VENDOR := true
 
 TARGET_BOOT_ANIMATION_RES := 1080
+WITH_GAPPS := true
+
