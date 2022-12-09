@@ -1,7 +1,7 @@
 $(call inherit-product, vendor/bootleggers/config/common_full_phone.mk)
 $(call inherit-product, vendor/bootleggers/config/BoardConfigSoong.mk)
 $(call inherit-product, vendor/bootleggers/config/BoardConfigBootleggers.mk)
-$(call inherit-product, device/bootleggers/sepolicy/common/sepolicy.mk)
+$(call inherit-product, device/bootleg/sepolicy/common/sepolicy.mk)
 -include vendor/bootleggers/build/core/config.mk
 
 TARGET_NO_KERNEL_OVERRIDE := true
